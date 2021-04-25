@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "rootDir": "src",
+      "outDir": "dist",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "Node",
+      "module": "commonjs",
+    },
+    "exclude": [ "./test/",
+                 "./node_modules/",
+                 "./dist/" 
+               ]
+}
