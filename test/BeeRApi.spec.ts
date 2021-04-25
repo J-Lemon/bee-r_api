@@ -43,7 +43,7 @@ describe('Api Tests', function() {
 
     try{
       await api.addHiveData( {} );
-      chai.assert( true, 'Should throw an error' );
+      chai.assert( false, 'Should throw an error' );
     }catch( error ){}
   
   } ); 
